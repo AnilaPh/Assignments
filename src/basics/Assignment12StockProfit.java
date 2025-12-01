@@ -14,9 +14,8 @@ public class Assignment12StockProfit {
 		
 		for(int i = 0 ; i < prices.length; i++) {
 			for(int j = i + 1 ; j < prices.length ; j++) {
-				currentProfit = prices[j]-prices[i];
+				currentProfit = prices[j] - prices[i];
 				if(currentProfit > profit ) {
-					//highPrice = prices[j];
 					profit = currentProfit;
 					buyDay = i + 1 ;
 					sellDay = j + 1;
@@ -31,7 +30,7 @@ public class Assignment12StockProfit {
 			System.out.println("Sell on day " + sellDay);
 		}
 		else
-			System.out.println("Please do not buy now. Wait for a better time to invest.");
+			System.out.println("Please do not buy now. Wait for a better time to invest");
 
 	}
 
