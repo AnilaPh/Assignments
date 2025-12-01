@@ -1,6 +1,6 @@
 package basics;
 
-public class Assignment2ArrayJava {
+public class Assignment02ArrayJava {
 
 	public static void main(String[] args) {
 		

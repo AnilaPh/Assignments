@@ -1,6 +1,6 @@
 package basics;
 
-public class Assignment1DataTypes {
+public class Assignment01DataTypes {
 
 	public static void main(String[] args) {
 //		Assignment 1 – Data Types 

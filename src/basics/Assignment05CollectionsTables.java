@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Assignment5CollectionsTables {
+public class Assignment05CollectionsTables {
 
 	public static void main(String[] args) {
 		//Student1 details
@@ -145,6 +145,7 @@ public class Assignment5CollectionsTables {
 		System.out.println("Product Table : "+productTable);
 		
 		// Create Map<String, List<Map<String, String>>> to store all 3 tables together
+		
 		Map<String,List<Map<String,String>>> allTables = new HashMap<String,List<Map<String,String>>>();
 		allTables.put("StudentDetails",studentTable);
 		allTables.put("employeeDetails", employeeTable);

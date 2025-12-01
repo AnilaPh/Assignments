@@ -1,13 +1,13 @@
 package basics;
 
-public class Assignment3EmpGroups {
+public class Assignment03EmpGroups {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//int [] numbers = new int [] {1, 2, 3, 4, 5};
 		int [] id = new int[3];
 		String [] name= new String[3];
-		Assignment3Employees obj =new Assignment3Employees();
+		Assignment03Employees obj =new Assignment03Employees();
 		id[0]=obj.employeeId[0];
 		name[0]=obj.employeeName[0];
 		System.out.println("Employee1 id : "+id[0] );

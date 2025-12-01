@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Assignment4Collections {
+public class Assignment04Collections {
 
 	public static void main(String[] args) {
 		System.out.println("==================Collections==========================");
